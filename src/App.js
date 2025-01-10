@@ -1,5 +1,6 @@
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
+import OurStore from "./pages/OurStore";
 import Profile from "./pages/Profile";
 import BlogCategory from "./sections/BlogCategory";
 import BrowseCategory from "./sections/BrowseCategory";
@@ -100,6 +101,12 @@ function App() {
         <Route path="/contactus" element={
           <>
             <ContactUs />
+          </>
+        }/>
+        
+        <Route path="/ourstore" element={
+          <>
+            <OurStore />
           </>
         }/>
       </Routes>

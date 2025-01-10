@@ -4,8 +4,6 @@ import WhyChooseUsCard from '../components/WhyChooseUsCard'
 import {deliveryImage, moneyImage, supportImage} from '../assets/icons'
 import TopBrands from '../components/TopBrands'
 import { amazonLogo, canonLogo, djiLogo, samsungLogo, motorolaLogo, sonyLogo, microsoftLogo, pumaLogo, adidasLogo, newBalanceLogo, filaLogo, vanHeusenLogo, reebokLogo, ajioLogo, boschLogo} from '../assets/icons'
-import PopularBrands from '../sections/PopularBrands'
-
 const AboutUs = () => {
     const whyChooseUs = [
         {
@@ -39,7 +37,8 @@ const AboutUs = () => {
         {imgUrl: vanHeusenLogo},
         {imgUrl: reebokLogo},   
         {imgUrl: ajioLogo},
-        {imgUrl: boschLogo},     
+        {imgUrl: boschLogo}, 
+        {imgUrl: sonyLogo}    
     ]
   return (
     <section>

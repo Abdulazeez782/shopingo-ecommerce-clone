@@ -1,5 +1,6 @@
 import {facebookIcon, instagramIcon, emailIcon, homeIcon, orderIcon, addressIcon, paymentIcon, accountIcon, logoutIcon} from '../assets/icons'
 import { blueJean, bucketHat, football, headphone, heels, laptop, redShirt, redSofa, smartphone, smartwatch, sneakers, sofa, suit, sweater, watchesCategory, shoesCategory, bagsCategory, electronicsCategory, headPhonesCategory, furnitureCategory, jewelryCategory, sportsCategory, vegetableCategory, medicalCategory, sunglassCategory, fashionCategory, blogImage1, blogImage2, blogImage3, blogImage4, blogImage5, blogImage6, visa, paypal, mastercard, americanExpress} from '../assets/images'
+import { clothingCardImage, accesoriesCardImage, shoesCardImage, furnitureCardImage, electronicsCardImage, makeupKitImage, jewelryCardImage, sportsCardImage} from '../assets/images'
 
 export const headerLinks = [
     {href: "/", label: "Track Order"},
@@ -45,7 +46,7 @@ export const navLinks = [
     ]},
     {href: "/aboutus", label: "ABOUT", secondaryLinks: []},
     {href: "/contactus", label: "CONTACT", secondaryLinks: []},
-    {href: "/", label: "OUR STORE", secondaryLinks: []},
+    {href: "/ourstore", label: "OUR STORE", secondaryLinks: []},
     {href: "/", label: "ACCOUNT", secondaryLinks: [
         {href: "/", label: "DASHBOARD"},
         {href: "/", label: "USER DETAILS"},
@@ -147,3 +148,61 @@ export const AccountLinks = [
     {label: "Account Details", imgurl: accountIcon},
     {label: "Logout", imgurl: logoutIcon},
 ]
+
+export const productCards = [
+    {imgUrl: clothingCardImage, heading: "CLOTHING", items: [
+      {name: "Blazers and Suits", value: "14"},
+      {name: "Dresses", value: "14"},
+      {name: "Sportswear", value: "14"},
+      {name: "Hoodies and Sweatshirts", value: "14"}
+    ]}, 
+    
+    {imgUrl: accesoriesCardImage, heading: "ACCESSORIES", items: [
+      {name: "Bags", value: "14"},
+      {name: "Sunglasses", value: "51"},
+      {name: "Jewelry", value: "12"},
+      {name: "Cosmetics", value: "17"}
+    ]}, 
+
+    {imgUrl: shoesCardImage, heading: "SHOES", items: [
+      {name: "Sandals", value: "10"},
+      {name: "Shoes", value: "2"},
+      {name: "Ballerinas and Flats", value: "5"},
+      {name: "Flip Flops", value: "4"}
+    ]}, 
+    
+    {imgUrl: furnitureCardImage, heading: "FURNITURE", items: [
+        {name: "Tables", value: "16"},
+        {name: "Chairs", value: "12"},
+        {name: "Adjustable height desks", value: "24"},
+        {name: "Lounge Seating", value: "84"}
+      ]}, 
+      
+    {imgUrl: electronicsCardImage, heading: "ELECTRONICS", items: [
+        {name: "Mobiles", value: "5"},
+        {name: "Laptops", value: "1"},
+        {name: "Headphones", value: "2"},
+        {name: "Computers and accessories", value: "20"}
+      ]}, 
+      
+    {imgUrl: makeupKitImage, heading: "MAKEUP KIT", items: [
+        {name: "Skin and Eye primer", value: "12"},
+        {name: "Eyeshadow", value: "13"},
+        {name: "Lipstick Pallette", value: "14"},
+        {name: "Excellent Brow", value: "15"}
+      ]}, 
+      
+    {imgUrl: jewelryCardImage, heading: "JEWELRY", items: [
+        {name: "Bridal", value: "17"},
+        {name: "Fashion", value: "10"},
+        {name: "Temple", value: "4"},
+        {name: "Handmade", value: "6"}
+      ]},
+
+    {imgUrl: sportsCardImage, heading: "SPORTS", items: [
+        {name: "Soccer/football", value: "19"},
+        {name: "Badminton", value: "10"},
+        {name: "Volleyball", value: "2"},
+        {name: "Tabletennis", value: "1"}
+    ]},
+  ]

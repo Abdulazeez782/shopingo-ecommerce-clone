@@ -62,6 +62,15 @@ import americanExpress from './american-express.png'
 
 import menuImg from './menu-img.jpg'
 
+import clothingCardImage from './clothing-card-image.png'
+import accesoriesCardImage from './accessories-card-image.png'
+import shoesCardImage from './shoes-card-image.png'
+import furnitureCardImage from './furniture-card-image.png'
+import electronicsCardImage from './electronics-card-image.png'
+import makeupKitImage from './makeup-kit-image.png'
+import jewelryCardImage from './jewelry-image.png'
+import sportsCardImage from './sports-image.png'
+
 export {
     profileIcon,
     favoriteIcon,
@@ -125,5 +134,14 @@ export {
     mastercard,
     americanExpress,
 
-    menuImg
+    menuImg,
+
+    clothingCardImage,
+    accesoriesCardImage,
+    shoesCardImage,
+    furnitureCardImage,
+    electronicsCardImage, 
+    makeupKitImage,
+    jewelryCardImage,
+    sportsCardImage
 }
