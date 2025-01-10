@@ -1,4 +1,5 @@
 import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 import Profile from "./pages/Profile";
 import BlogCategory from "./sections/BlogCategory";
 import BrowseCategory from "./sections/BrowseCategory";
@@ -12,7 +13,7 @@ import NewArrivals from "./sections/NewArrivals";
 import PopularBrands from "./sections/PopularBrands";
 import QuickSales from "./sections/QuickSales";
 import WearCategories from "./sections/WearCategories";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -93,6 +94,12 @@ function App() {
         <Route path="/aboutus" element={
           <>
             <AboutUs />
+          </>
+        }/>
+
+        <Route path="/contactus" element={
+          <>
+            <ContactUs />
           </>
         }/>
       </Routes>
