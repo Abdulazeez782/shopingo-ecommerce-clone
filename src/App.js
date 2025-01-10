@@ -1,3 +1,4 @@
+import AboutUs from "./pages/AboutUs";
 import Profile from "./pages/Profile";
 import BlogCategory from "./sections/BlogCategory";
 import BrowseCategory from "./sections/BrowseCategory";
@@ -87,7 +88,13 @@ function App() {
             <>
               <Profile />
             </>
-        }/>        
+        }/> 
+
+        <Route path="/aboutus" element={
+          <>
+            <AboutUs />
+          </>
+        }/>
       </Routes>
         <footer className="mt-14">
           <Footer />

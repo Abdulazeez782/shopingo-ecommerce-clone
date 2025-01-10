@@ -24,4 +24,12 @@
   .padding-y {
     @apply py-4;
   }
+
+  .sections-margin-x {
+    @apply mx-[1rem] md:mx-[6rem] lg:mx-[4rem];
+  }
+
+  .sections-padding-x {
+    @apply px-[1rem] md:px-[6rem] lg:px-[4rem];
+  }
 }

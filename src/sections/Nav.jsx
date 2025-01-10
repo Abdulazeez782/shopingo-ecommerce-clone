@@ -107,12 +107,12 @@ const Nav = () => {
                             onClick={() => window.innerWidth <= 1024 && handleToggle(index)}
                             className={`p-4 border-b-[1px] border-black lg:border-none ${activeLink === index ? "lg:relative" : ""} cursor-pointer hover:bg-gray-100 text-[16px] font-semibold`}
                         >
-                            <a 
-                                href={nav.href}
+                            <Link 
+                                to={nav.href}
                                 className='block lg:inline-block'                      
                             >
                                 {nav.label}
-                            </a>
+                            </Link>
 
                             {/* submenu */}
                             {nav.secondaryLinks.length > 0 && (

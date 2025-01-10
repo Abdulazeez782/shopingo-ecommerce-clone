@@ -21,6 +21,19 @@ import paymentIcon from './credit-card.png'
 import accountIcon from './user.png'
 import logoutIcon from './logout.png'
 
+import deliveryImage from './delivery.png'
+import moneyImage from './money-bag.png'
+import supportImage from './support.png'
+
+import pumaLogo from './pumaLogo.png'
+import adidasLogo from './adidasLogo.png'
+import newBalanceLogo from './newBalanceLogo.png'
+import filaLogo from './filaLogo.png'
+import vanHeusenLogo from './vanHeusenLogo.png'
+import reebokLogo from './reebokLogo.png'
+import ajioLogo from './ajioLogo.png'
+import boschLogo from './boschLogo.png'
+
 export {
     facebookIcon,
     instagramIcon,
@@ -46,6 +59,20 @@ export {
     addressIcon,
     paymentIcon,
     accountIcon,
-    logoutIcon   
+    logoutIcon, 
+    
+    deliveryImage,
+    moneyImage,
+    supportImage, 
+
+    pumaLogo,
+    adidasLogo,
+    newBalanceLogo,
+    filaLogo,
+    vanHeusenLogo,
+    reebokLogo, 
+    ajioLogo,
+    boschLogo
 }
+
 

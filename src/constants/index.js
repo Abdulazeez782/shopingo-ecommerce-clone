@@ -43,7 +43,7 @@ export const navLinks = [
         {href: "/", label: "SHOP CART"},
         {href: "/", label: "SHOP CATEGORIES"}
     ]},
-    {href: "/", label: "ABOUT", secondaryLinks: []},
+    {href: "/aboutus", label: "ABOUT", secondaryLinks: []},
     {href: "/", label: "CONTACT", secondaryLinks: []},
     {href: "/", label: "OUR STORE", secondaryLinks: []},
     {href: "/", label: "ACCOUNT", secondaryLinks: [
