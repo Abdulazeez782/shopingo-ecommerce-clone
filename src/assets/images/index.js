@@ -71,6 +71,21 @@ import makeupKitImage from './makeup-kit-image.png'
 import jewelryCardImage from './jewelry-image.png'
 import sportsCardImage from './sports-image.png'
 
+import whitePolo from './polo-white-big.png'
+import yellowPolo from './polo-yellow-big.png'
+import bluePolo from './polo-blue-big.png'
+import redPolo from './polo-red-big.png'
+
+import jamesAvatar from './james-avatar.png'
+import davidAvatar from './david-avatar.png'
+import peterAvatar from './peter-image.png'
+
+import yellowTop from './yellowTop.png'
+import redTop from './redTop.png'
+import blueStripeTop from './blueStripedTop.png'
+import multiColoredTop from './multicoloredTop.png'
+
+
 export {
     profileIcon,
     favoriteIcon,
@@ -143,5 +158,19 @@ export {
     electronicsCardImage, 
     makeupKitImage,
     jewelryCardImage,
-    sportsCardImage
+    sportsCardImage,
+
+    whitePolo,
+    yellowPolo,
+    bluePolo,
+    redPolo,
+
+    jamesAvatar,
+    peterAvatar,
+    davidAvatar,
+
+    yellowTop,
+    redTop,
+    blueStripeTop,
+    multiColoredTop
 }

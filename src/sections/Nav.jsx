@@ -129,13 +129,13 @@ const Nav = () => {
                                                 >
                                                     <h3 className='pl-2 pb-4'>{subLink.label}</h3>                                    
                                                     {subLink.links.map((link, index) => (
-                                                        <a 
+                                                        <Link 
                                                             key={index}
-                                                            href={subLink.href}
+                                                            to={subLink.href}
                                                             className='inline-block p-2 hover:bg-slate-200 border-b border-gray-200'
                                                         >
                                                             {link.label}
-                                                        </a>  
+                                                        </Link>  
                                                     ))}
                                                                                         
                                                 </div>                               
@@ -146,13 +146,13 @@ const Nav = () => {
                                         <div>
                                             {
                                                 nav.secondaryLinks.map((link, index) => (
-                                                    <a 
-                                                        href='link.href'
+                                                    <Link 
+                                                        to={link.href}
                                                         key={index}
                                                         className='inline-block w-full p-2 hover:bg-slate-200 border-b border-gray-200'
                                                     >
                                                         {link.label}
-                                                    </a>
+                                                    </Link>
                                                 ))
                                             }
                                         </div>

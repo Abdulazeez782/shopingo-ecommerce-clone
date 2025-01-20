@@ -5,8 +5,8 @@ const Button = ({label, onClick, bgColor, textColor, borderColor}) => {
     <button 
         onClick={onClick}
         className={`w-[100%] px-4 py-2 border ${bgColor ? `${bgColor} ${textColor} ${borderColor} hover:bg-black hover:text-white` : "bg-black text-white hover:bg-gray-700"}`}
-    >{
-        label}
+    >
+      {label}
     </button>
   )
 }

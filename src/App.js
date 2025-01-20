@@ -1,7 +1,9 @@
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import OurStore from "./pages/OurStore";
+import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/Profile";
+import ShopCart from "./pages/ShopCart";
 import BlogCategory from "./sections/BlogCategory";
 import BrowseCategory from "./sections/BrowseCategory";
 import FeaturedProduct from "./sections/FeaturedProduct";
@@ -107,6 +109,19 @@ function App() {
         <Route path="/ourstore" element={
           <>
             <OurStore />
+          </>
+        }/>
+
+        <Route path="/productDetails" element={
+          <>
+            <ProductDetails />
+          </>
+        }/>
+
+        
+        <Route path="/shopCart" element={
+          <>
+            <ShopCart />
           </>
         }/>
       </Routes>

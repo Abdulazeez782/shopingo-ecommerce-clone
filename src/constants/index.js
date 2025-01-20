@@ -3,56 +3,56 @@ import { blueJean, bucketHat, football, headphone, heels, laptop, redShirt, redS
 import { clothingCardImage, accesoriesCardImage, shoesCardImage, furnitureCardImage, electronicsCardImage, makeupKitImage, jewelryCardImage, sportsCardImage} from '../assets/images'
 
 export const headerLinks = [
-    {href: "/", label: "Track Order"},
-    {href: "/", label: "About"},
-    {href: "/", label: "Our Stores"},
-    {href: "/", label: "Blog"},
-    {href: "/", label: "Contact"},
-    {href: "/", label: "Help & FAQs"}
+    {href: "#", label: "Track Order"},
+    {href: "#", label: "About"},
+    {href: "#", label: "Our Stores"},
+    {href: "#", label: "Blog"},
+    {href: "#", label: "Contact"},
+    {href: "#", label: "Help & FAQs"}
 ]
 
 export const headerSocials = [
-    {imgurl: facebookIcon, alt: "facebookIcon", href: "/"},
-    {imgurl: instagramIcon, alt: "instagramIcon", href: "/"},
-    {imgurl: emailIcon, alt: "emailIcon", href: "/"}
+    {imgurl: facebookIcon, alt: "facebookIcon", href: "#"},
+    {imgurl: instagramIcon, alt: "instagramIcon", href: "#"},
+    {imgurl: emailIcon, alt: "emailIcon", href: "#"}
 ]
 
 export const navLinks = [
     {href: "/", label: "HOME", secondaryLinks: []},
-    {href: "/", label: "CATEGORIES", secondaryLinks: [
+    {href: "#", label: "CATEGORIES", secondaryLinks: [
         [
             {label: "FASHION", links: [
-                {href: "/", label: "CASUAL T-SHIRTS"},
-                {href: "/", label: "JACKETS"},
-                {href: "/", label: "JEANS"},
-                {href: "/", label: "SNEAKERS"},
-                {href: "/", label: "BELTS"},
-                {href: "/", label: "SPORT SHOES"},
+                {href: "#", label: "CASUAL T-SHIRTS"},
+                {href: "#", label: "JACKETS"},
+                {href: "#", label: "JEANS"},
+                {href: "#", label: "SNEAKERS"},
+                {href: "#", label: "BELTS"},
+                {href: "#", label: "SPORT SHOES"},
             ]},
             {label: "ELECTRONICS", links: [
-                {href: "/", label: "MOBILES"},
-                {href: "/", label: "LAPTOP"},
-                {href: "/", label: "MACBOOK"},
-                {href: "/", label: "TELEVISIONS"},
-                {href: "/", label: "FREEZER"},
-                {href: "/", label: "SMART WATCH"},
+                {href: "#", label: "MOBILES"},
+                {href: "#", label: "LAPTOP"},
+                {href: "#", label: "MACBOOK"},
+                {href: "#", label: "TELEVISIONS"},
+                {href: "#", label: "FREEZER"},
+                {href: "#", label: "SMART WATCH"},
             ]}
         ]
     ]},
     {label: "SHOP", secondaryLinks: [
-        {href: "/", label: "PRODUCT DETAILS"},
-        {href: "/", label: "SHOP CART"},
+        {href: "/productDetails", label: "PRODUCT DETAILS"},
+        {href: "/shopCart", label: "SHOP CART"},
         {href: "/", label: "SHOP CATEGORIES"}
     ]},
     {href: "/aboutus", label: "ABOUT", secondaryLinks: []},
     {href: "/contactus", label: "CONTACT", secondaryLinks: []},
     {href: "/ourstore", label: "OUR STORE", secondaryLinks: []},
-    {href: "/", label: "ACCOUNT", secondaryLinks: [
-        {href: "/", label: "DASHBOARD"},
-        {href: "/", label: "USER DETAILS"},
-        {href: "/", label: "MY ORDERS"},        
-        {href: "/", label: "LOGIN"},        
-        {href: "/", label: "REGISTER"},
+    {href: "#", label: "ACCOUNT", secondaryLinks: [
+        {href: "/profile", label: "DASHBOARD"},
+        {href: "#", label: "USER DETAILS"},
+        {href: "#", label: "MY ORDERS"},        
+        {href: "#", label: "LOGIN"},        
+        {href: "#", label: "REGISTER"},
     ]},
     {href: "/", label: "BLOG", secondaryLinks: []},
 ]
@@ -121,16 +121,16 @@ export const footerCategories = [
 ]
 
 export const footerPopularTags = [
-    {label: "CLOTHS", href: "/"},
-    {label: "ELECTRONICS", href: "/"},
-    {label: "FURNITURE", href: "/"},
-    {label: "SPORTS", href: "/"},
-    {label: "MEN WEAR", href: "/"},
-    {label: "WOMEN WEAR", href: "/"},
-    {label: "LAPTOPS", href: "/"},
-    {label: "BAGS", href: "/"},
-    {label: "SOFA", href: "/"},
-    {label: "SHOES", href: "/"},
+    {label: "CLOTHS", href: "#"},
+    {label: "ELECTRONICS", href: "#"},
+    {label: "FURNITURE", href: "#"},
+    {label: "SPORTS", href: "#"},
+    {label: "MEN WEAR", href: "#"},
+    {label: "WOMEN WEAR", href: "#"},
+    {label: "LAPTOPS", href: "#"},
+    {label: "BAGS", href: "#"},
+    {label: "SOFA", href: "#"},
+    {label: "SHOES", href: "#"},
 ]
 
 export const footerPaymentLogos = [
