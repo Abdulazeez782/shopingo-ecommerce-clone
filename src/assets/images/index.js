@@ -85,6 +85,14 @@ import redTop from './redTop.png'
 import blueStripeTop from './blueStripedTop.png'
 import multiColoredTop from './multicoloredTop.png'
 
+import blogPostImage1 from './blog-post-card-1.png'
+import blogPostImage2 from './blog-post-card-2.png'
+import blogPostImage3 from './blog-post-card-3.png'
+
+import blogRecentPost1 from './blog-recent-post-1.png'
+import blogRecentPost2 from './blog-recent-post-2.png'
+import blogRecentPost3 from './blog-recent-post-3.png'
+import blogRecentPost4 from './blog-recent-post-4.png'
 
 export {
     profileIcon,
@@ -172,5 +180,14 @@ export {
     yellowTop,
     redTop,
     blueStripeTop,
-    multiColoredTop
+    multiColoredTop,
+
+    blogPostImage1,
+    blogPostImage2,
+    blogPostImage3,
+
+    blogRecentPost1,
+    blogRecentPost2,
+    blogRecentPost3,
+    blogRecentPost4
 }

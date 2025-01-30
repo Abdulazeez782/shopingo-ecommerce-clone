@@ -1,4 +1,5 @@
 import AboutUs from "./pages/AboutUs";
+import BlogPost from "./pages/BlogPost";
 import ContactUs from "./pages/ContactUs";
 import OurStore from "./pages/OurStore";
 import ProductDetails from "./pages/ProductDetails";
@@ -122,6 +123,12 @@ function App() {
         <Route path="/shopCart" element={
           <>
             <ShopCart />
+          </>
+        }/>
+
+        <Route path="/blogPost" element={
+          <>
+            <BlogPost />
           </>
         }/>
       </Routes>

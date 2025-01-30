@@ -54,7 +54,10 @@ export const navLinks = [
         {href: "#", label: "LOGIN"},        
         {href: "#", label: "REGISTER"},
     ]},
-    {href: "/", label: "BLOG", secondaryLinks: []},
+    {href: "/", label: "BLOG", secondaryLinks: [
+        {href: "/blogPost", label: "BLOG POST"},
+        {href: "/blogRead", label: "BLOG READ"},
+    ]},
 ]
 
 export const featuredProduct =  [
